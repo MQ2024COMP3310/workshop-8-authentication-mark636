@@ -32,7 +32,7 @@ def login_post():
 @auth.route('/signup')
 def signup():
     return render_template('signup.html')
-
+#error between 36-48
 @auth.route('/signup', methods=['POST'])
 def signup_post():
     email = request.form.get('email')
